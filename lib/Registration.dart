@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:police/model/item.dart';
+//import 'package:police/model/item.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:flutter/material.dart';
+//import 'package:flutter/material.dart';
 import 'package:flutter_social_button/flutter_social_button.dart';
  
 class Regstraion extends StatefulWidget {
@@ -28,6 +28,8 @@ class _regstraion extends State<Regstraion> {
     print('yahya1');
     if (_formKey.currentState?.validate() ?? false) {
       print('yahya');
+      print('yahya2');
+
       // Perform registration logic here
       String Fname = _FirstNameController.text;
       String password = _passwordController.text;
